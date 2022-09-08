@@ -1,0 +1,83 @@
+/*=======================================================
+                 another one part start
+=======================================================*/
+.another_bg{
+    padding: 40px 50px;
+    border-radius: 5px;
+    
+    .off_text{
+        padding-left: 30px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            right: -40px;
+            top: 5%;
+            width: 2px;
+            height: 75px;
+            background: #666;
+        }
+        h3{
+            @include fontstyle (#f77c29, 71px, 'Poppins', 700);
+        }
+        p{
+            @include fontstyle (#f77c29, 40px, 'Poppins', 700);
+            position: relative;
+            span{
+                @include fontstyle (#f77c29, 25px, 'Poppins', 700);
+                display: block;
+                position: absolute;
+                left: 0;
+                bottom: 10px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .ftf{
+        margin-top: 5px;
+        h4{
+            @include fontstyle (#fff, 26px, 'Poppins', 700);
+            text-transform: uppercase;
+            padding-left: 30px;
+            margin-bottom: 6px;
+        }
+        p{
+            @include fontstyle (#fff, 18px, 'Poppins', 400);
+            text-transform: capitalize;
+            padding-left: 30px;
+            span{
+                @include fontstyle (#000, 16px, 'Poppins', 700);
+                background: #fff;
+                padding: 0px 2px;
+                margin: 0 5px;
+            }
+        }
+    }
+    .shop_noow{
+        a {
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 15px;
+            font-family: "Poppins";
+            font-weight: 500;
+            padding: 10px 30px;
+            background: transparent;
+            border: 2px solid #fff;
+            border-radius: 3px;
+            margin-top: 15px;
+            &:hover{
+                background: #fff;
+                color: #336699;
+                i{
+                    color: #336699;
+                    transition: all linear .2s;
+                }
+                transition: all linear .2s;
+            }
+        }
+    }
+}
+/*=======================================================
+                 another one part end
+=======================================================*/

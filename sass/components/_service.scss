@@ -1,0 +1,28 @@
+/*==========================================
+        service scss start
+==========================================*/
+#service {
+    padding: 40px 0;
+  }
+  
+  #service .service_row {
+    padding: 20px 0px;
+    padding-left: 55px;
+    border: 1px solid #f1f1f1;
+    border-radius: 6px;
+    margin: 0 2px;
+  }
+  
+  #service .service_row .icon_text p {
+    color: #222;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 500;
+  }
+  
+  #service .service_row .icon_text p span {
+    color: #666;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }

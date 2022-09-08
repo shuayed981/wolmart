@@ -1,0 +1,126 @@
+/*=====================================================
+                blog_part scss start
+=====================================================*/
+#blog_part {
+    padding: 70px 0;
+
+    .common_col {
+        position: relative;
+        margin-bottom: 30px;
+
+        &::after {
+            position: absolute;
+            background: #eee;
+            content: '';
+            left: 12px;
+            top: 35px;
+            width: 98.2%;
+            height: 1px;
+        }
+    }
+
+    .common_headding {
+        text-align: start !important;
+
+        h3 {
+            @include fontstyle (#333, 20px, 'Poppins', 700);
+            text-transform: capitalize;
+        }
+    }
+
+    .blog_col {
+        text-align: center;
+
+        .blog_img{
+            overflow: hidden;
+            cursor: pointer;
+           a{
+            img {
+                margin-bottom: 15px;
+                transition: all linear.2s;
+                border-radius: 4px;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+           }
+        }
+
+        p {
+
+            @include fontstyle (#999, 13px, 'Poppins', 600);
+
+            a {
+                @include fontstyle (#333, 15px, 'Poppins', 600);
+
+                &:hover {
+                    color: #336699;
+                    transition: all linear .2s;
+                }
+
+                margin-left: 5px;
+
+            }
+
+            .aa {
+                margin-left: 5px;
+                @include fontstyle (#333, 15px, 'Poppins', 400);
+
+                &:hover {
+                    color: #336699;
+                    transition: all linear .2s;
+                }
+            }
+        }
+
+        h2 {
+            margin-top: -13px;
+
+            a {
+                @include fontstyle (#333, 15px, 'Poppins', 600);
+
+                &:hover {
+                    color: #336699;
+                    transition: all linear .2s;
+                }
+            }
+        }
+
+        .aa2 {
+            @include fontstyle (#333, 14px, 'Poppins', 400);
+            position: relative;
+            margin-top: 10px;
+
+            i {
+                margin-left: 5px;
+            }
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: 0;
+                bottom: 0;
+                background: #333;
+                width: 100%;
+                height: 2px;
+                visibility: hidden;
+                opacity: 0;
+                transform: scale(0);
+                transition: all linear .2s;
+            }
+
+            &:hover {
+                &::after {
+                    visibility: visible;
+                    opacity: 1;
+                    transform: scale(1);
+                    transition: all linear .2s;
+                }
+            }
+        }
+    }
+}
+
+/*=====================================================
+                blog_part scss end
+=====================================================*/

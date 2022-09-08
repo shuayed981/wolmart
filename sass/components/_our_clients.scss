@@ -1,0 +1,37 @@
+/*=========================================================
+                our clients scss start
+=========================================================*/
+    #our_clients{
+        padding: 50px 0;
+        .common_col{
+            position: relative;
+            margin-bottom: 30px;
+            &::after{
+                position: absolute;
+                background: #eee;
+                content: '';
+                left: 12px;
+                top: 35px;
+                width: 98.2%;
+                height: 1px;
+            }
+        }
+        .common_headding{
+            text-align: start !important;
+            h3{
+                @include fontstyle (#333, 20px, 'Poppins', 700);
+                text-transform: capitalize;
+            }
+        }
+        .client_img{
+            img{
+                border: 1px solid #eee;
+            }
+        }
+        .client_col{
+            padding: 0;
+        }
+    }
+/*=========================================================
+                our clients scss end
+=========================================================*/

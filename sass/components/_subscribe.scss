@@ -1,0 +1,65 @@
+/*=============================================
+        subscribe scss start
+=============================================*/
+#subscribe {
+  padding: 30px 0;
+  background: #336699;
+  position: relative;
+}
+
+#subscribe .icon_text_p p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+#subscribe .icon_text_p p span {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 13px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+#subscribe .sub {
+  padding: 13px 30px;
+  background: #333;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-left: 216px;
+  position: absolute;
+  right: -165px;
+  top: 0;
+  border-radius: 0;
+  transition: all linear .2s;
+
+  &:hover{
+    background-color: #444;
+    transition: all linear .2s;
+  }
+}
+
+#subscribe .form-control {
+  color: #ccc;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 400;
+
+}
+
+.navhello {
+  border-radius: 4px;
+  padding: 5px 0px;
+  width: 70%;
+  margin-left: 58px;
+}
+
+
+/*=============================================
+        subscribe scss end
+=============================================*/

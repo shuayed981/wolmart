@@ -1,0 +1,174 @@
+/*==================================================
+            footer scss start
+==================================================*/
+#footer {
+    padding-top: 85px;
+    padding-bottom: 45px;
+  }
+  
+  #footer .foot_logo_col_text {
+    padding-top: 15px;
+  }
+  
+  #footer .foot_logo_col_text h4 {
+    color: #333;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+  
+  #footer .foot_logo_col_text h2 {
+    color: #333;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+  
+  #footer .foot_logo_col_text p {
+    color: #666;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 400;
+    padding-bottom: 15px;
+  }
+  
+  #footer .foot_logo_col_text p span {
+    padding-top: 10px;
+    color: #666;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+  
+  #footer .foot_logo_col_text ul li {
+    margin-right: 15px;
+  }
+  
+  #footer .foot_logo_col_text ul li a {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+  }
+  
+  #footer .common_foot_heading {
+    padding-bottom: 15px;
+  }
+  
+  #footer .common_foot_heading h3 {
+    color: #333;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  #footer .foot_ul ul li a {
+    color: #666;
+    font-size: 13px;
+    font-family: "Poppins";
+    font-weight: 400;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+    text-transform: capitalize;
+  }
+  
+  #footer .foot_ul ul li a:hover {
+    color: #336699;
+  }
+  
+  #footer .foot_1st_row {
+    margin-bottom: 100px;
+  }
+  
+  #footer .foo_col_1st {
+    position: relative;
+  }
+  
+  #footer .foo_col_1st::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    height: 1px;
+    background: #f1f1ff;
+  }
+  
+  #footer .common_sec h4 {
+    color: #333;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-right: 25px;
+  }
+  
+  #footer .common_sec ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  #footer .common_sec ul li a {
+    color: #333;
+    font-size: 13px;
+    font-family: "Poppins";
+    font-weight: 400;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+    text-transform: capitalize;
+  }
+  
+  #footer .common_sec ul li a:hover {
+    color: #336699;
+  }
+  
+  #footer .common_sec ul .common_li {
+    position: relative;
+  }
+  
+  #footer .common_sec ul .common_li::before {
+    position: absolute;
+    content: '';
+    right: -13px;
+    top: 7px;
+    width: 1px;
+    height: 15px;
+    background: #ccc;
+  }
+  
+  #footer .copyright_foot {
+    position: relative;
+  }
+  
+  #footer .copyright_foot::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: -50px;
+    width: 100%;
+    height: 1px;
+    background: #f1f1ff;
+  }
+  
+  #footer .copyright p {
+    color: #666;
+    font-size: 13px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+  
+  #footer .payment_method p {
+    color: #666;
+    font-size: 13px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+/*==================================================
+            footer scss end
+==================================================*/

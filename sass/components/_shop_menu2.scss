@@ -1,0 +1,27 @@
+/*========================================================
+                shop_menu_2 scss
+========================================================*/
+.hululu{
+    .brows_menu_dropdown{
+        visibility: hidden;
+        opacity: 0;
+        transition: all linear .2s;
+    }
+    &:hover{
+        .brows_menu_dropdown{
+            visibility: visible;
+            opacity: 1;
+            transition: all linear .2s;
+        }
+        background: #336699 !important;
+        transition: all linear .2s;
+        
+        .koli{
+            color: #fff !important;
+            transition: all linear .2s;
+        }
+    }
+}
+/*========================================================
+                shop_menu_2 scss
+========================================================*/

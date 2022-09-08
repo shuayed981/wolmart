@@ -1,0 +1,323 @@
+/*===================================================
+            banner scss start
+===================================================*/
+.slider_banner {
+    padding: 70px 0;
+    position: relative;
+  }
+  
+  .slider_banner .shoe_slider_text {
+    padding-right: 30px;
+    padding-top: 73px;
+  }
+  
+  .slider_banner .shoe_slider_text h2 {
+    text-transform: capitalize;
+    color: #666;
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 400;
+    padding-bottom: 3px;
+  }
+  
+  .slider_banner .shoe_slider_text h2 span {
+    color: #666;
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .slider_banner .shoe_slider_text h2 span::after {
+    position: absolute;
+    content: '';
+    left: -5px;
+    bottom: 8px;
+    width: 108%;
+    height: 3px;
+    background: #f77c29;
+  }
+  
+  .slider_banner .shoe_slider_text h1 {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: 700;
+    padding-bottom: 2px;
+  }
+  
+  .slider_banner .shoe_slider_text p {
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: #666;
+    font-size: 26px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+  
+  .slider_banner .shoe_slider_text p span {
+    color: #f77c29;
+    font-size: 26px;
+    font-family: "Poppins";
+    font-weight: 700;
+  }
+  
+  .slider_banner .shoe_slider_text a {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: 13px 40px;
+    background: transparent;
+    border: 2px solid #333;
+    border-radius: 3px;
+  }
+  
+  .slider_banner .shoe_slider_text a:hover {
+    background: #333;
+    color: #fff;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+  }
+  
+  .slider_banner .shoe_slider_text a:hover i {
+    color: #fff;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+  }
+  
+  .slider_banner .men_slider_text {
+    padding-right: 30px;
+    padding-top: 73px;
+  }
+  
+  .slider_banner .men_slider_text h2 {
+    text-transform: capitalize;
+    color: #666;
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 400;
+    padding-bottom: 3px;
+  }
+  
+  .slider_banner .men_slider_text h2 span {
+    color: #f77c29;
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+  
+  .slider_banner .men_slider_text h1 {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 47px;
+    font-family: "Poppins";
+    font-weight: 700;
+    padding-bottom: 2px;
+  }
+  
+  .slider_banner .men_slider_text p {
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: #666;
+    font-size: 26px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+  
+  .slider_banner .men_slider_text p span {
+    color: #f77c29;
+    font-size: 26px;
+    font-family: "Poppins";
+    font-weight: 700;
+  }
+  
+  .slider_banner .men_slider_text a {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: 13px 40px;
+    background: transparent;
+    border: 2px solid #333;
+    border-radius: 3px;
+  }
+  
+  .slider_banner .men_slider_text a:hover {
+    background: #333;
+    color: #fff;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+  }
+  
+  .slider_banner .men_slider_text a:hover i {
+    color: #fff;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+  }
+  
+  .slider_banner .skate_slider_text {
+    padding-right: 30px;
+    padding-top: 73px;
+  }
+  
+  .slider_banner .skate_slider_text h2 {
+    text-transform: capitalize;
+    color: #666;
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+  
+  .slider_banner .skate_slider_text h2 span {
+    color: #666;
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .slider_banner .skate_slider_text h2 span::after {
+    position: absolute;
+    content: '';
+    left: -5px;
+    bottom: 8px;
+    width: 108%;
+    height: 3px;
+    background: #f77c29;
+  }
+  
+  .slider_banner .skate_slider_text .roller_skates {
+    width: 175px;
+    padding: 0px 17px;
+    height: 60px;
+    background: #f77c29;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    border-radius: 3px;
+    position: relative;
+  }
+  
+  .slider_banner .skate_slider_text .roller_skates h1 {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: 700;
+    -webkit-transform: skewX(20deg);
+            transform: skewX(20deg);
+    color: #fff;
+  }
+  
+  .slider_banner .skate_slider_text .roller_skates::before {
+    position: absolute;
+    content: '';
+    left: 170px;
+    bottom: 0px;
+    width: 115%;
+    height: 3px;
+    background: #f77c29;
+  }
+  
+  .slider_banner .skate_slider_text .roller_skates p {
+    color: #333;
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: 700;
+    -webkit-transform: skewX(20deg);
+            transform: skewX(20deg);
+    text-transform: lowercase;
+    margin-left: 20px;
+  }
+  
+  .slider_banner .skate_slider_text p {
+    text-transform: uppercase;
+    color: #666;
+    font-size: 26px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+  
+  .slider_banner .skate_slider_text p span {
+    color: #f77c29;
+    font-size: 26px;
+    font-family: "Poppins";
+    font-weight: 700;
+  }
+  
+  .slider_banner .skate_slider_text a {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: 13px 40px;
+    background: transparent;
+    border: 2px solid #333;
+    border-radius: 3px;
+    margin-top: 30px;
+  }
+  
+  .slider_banner .skate_slider_text a:hover {
+    background: #333;
+    color: #fff;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+  }
+  
+  .slider_banner .skate_slider_text a:hover i {
+    color: #fff;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+  }
+  
+  .slider_banner .men_img img {
+    position: absolute;
+    right: 95px;
+    top: -20px;
+  }
+  
+  .slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .slick-dots li {
+    margin-right: 5px;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+  
+  .slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+  
+  .slick-dots .slick-active {
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+  
+  .slick-dots .slick-active button {
+    width: 18px;
+    height: 9px;
+    background: #336699;
+    border-radius: 5px;
+    border: 0;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+  }

@@ -1,0 +1,136 @@
+/*====================================================
+               top deparrtments scss start
+====================================================*/
+#top_departments {
+    padding: 70px 0;
+
+    .common_heading_2 {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h3 {
+            @include fontstyle (#333, 20px, 'Poppins', 700);
+            text-transform: capitalize;
+        }
+    }
+
+    .navs_tabs {
+        justify-content: center;
+
+    }
+
+    .navu_link {
+        padding: 8px 20px;
+        border-radius: 6px;
+        @include fontstyle (#333, 14px, 'Poppins', 600);
+        text-transform: uppercase;
+        margin-right: 10px;
+
+
+        &:nth-child(4) {
+            margin-right: 0;
+        }
+    }
+}
+
+.up_row {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.review {
+    a {
+
+        color: #ccc;
+        font-size: 14px;
+        font-family: "Poppins";
+        font-weight: 500;
+        text-transform: capitalize;
+        cursor: pointer;
+        transition: all linear .2s;
+
+    }
+}
+
+.top_img_text {
+    margin-top: 20px;
+    h4 {
+        color: #333;
+        font-size: 14px;
+        font-family: "Poppins";
+        font-weight: 500;
+        text-transform: capitalize;
+        cursor: pointer;
+        transition: all linear .2s;
+        margin-bottom: 2spx;
+    }
+
+    h5 {
+        color: #333;
+        font-size: 16px;
+        font-family: "Poppins";
+        font-weight: 600;
+        margin-top: 5px;
+
+    }
+    
+}
+.departments_img{
+    position: relative;
+    cursor: pointer;
+    &:hover{
+        .hola_comoestas{
+            visibility: visible;
+            opacity: 1;
+            transition: all linear .2s;
+        }
+    }
+}
+.hola_comoestas{
+    transition: all linear .2s;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    visibility: hidden;
+    opacity: 0;
+    li{
+        margin-bottom: 7px;
+        &:hover{
+            a{
+                color: #fff;
+                background:#336699;
+                transition: all linear .2s;
+            }
+        }
+        a{
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            background: #fff;
+            border-radius: 50%;
+            color: #999;
+        }
+    }
+}
+.hula_hula{
+    position: relative;
+    .off{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        padding: 1px 5px;
+        text-align: center;
+        border-radius: 5px;
+        background: #f96a02;
+        p{
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+    }
+}
+
+/*====================================================
+               top deparrtments scss end
+====================================================*/

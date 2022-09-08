@@ -1,0 +1,201 @@
+/*==================================================
+            menu_2 scss start
+==================================================*/
+#menu_2 {
+    height: 60px;
+  }
+  
+  #menu_2 .brows_categories {
+    background: #f1f1f1;
+    padding: 18px 17px;
+  }
+  
+  #menu_2 .brows_categories ul {
+    position: relative;
+  }
+  
+  #menu_2 .brows_categories ul li a {
+    color: #222;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+  
+  #menu_2 .brows_categories ul li i {
+    color: #222;
+  }
+  
+  #menu_2 .brows_categories ul .brows_menu_dropdown {
+    position: absolute;
+    left: -16px;
+    top: 42px;
+    width: 304px;
+    height: 520px;
+    background: #ffffff;
+    z-index: 999;
+  }
+  
+  #menu_2 .brows_categories ul .brows_menu_dropdown li {
+    margin-left: 20px;
+    padding: 16px 0 0 0;
+    position: relative;
+  }
+  
+  #menu_2 .brows_categories ul .brows_menu_dropdown li::after {
+    position: absolute;
+    content: '';
+    left: -10px;
+    bottom: -10px;
+    width: 100%;
+    height: 1px;
+    background: #f1f1f1;
+  }
+  
+  #menu_2 .brows_categories ul .brows_menu_dropdown li a {
+    color: #222;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+  #menu_2 .brows_categories ul .brows_menu_dropdown li:hover a{
+    transition: all linear .1s;
+    color: #336699;
+  }
+  #menu_2 .brows_categories ul .brows_menu_dropdown li:hover i{
+    transition: all linear .1s;
+    color: #336699;
+  }
+  
+  #menu_2 .brows_categories ul .brows_menu_dropdown li:last-child::after {
+    background: transparent;
+  }
+  
+  #menu_2 .brows_categories ul .brows_menu_dropdown .view_all_categories a {
+    color: #336699;
+    font-weight: 600;
+    padding: 0 0 0 0;
+  }
+  
+  #menu_2 .brows_categories a i {
+    color: #222;
+  }
+  
+  #menu_2 .home_menu_only ul li {
+    line-height: 60px;
+  }
+  
+  #menu_2 .home_menu_only ul li a {
+    color: #336699;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 600;
+    position: relative;
+  }
+  
+  #menu_2 .home_menu_only ul li a::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 18px;
+    background: #336699;
+  }
+  
+  #menu_2 .dropdown_menu ul li {
+    margin-right: 30px;
+  }
+  
+  #menu_2 .dropdown_menu ul li:nth-child(5) {
+    margin-right: 0;
+  }
+  
+  #menu_2 .dropdown_menu ul li a {
+    color: #222;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 600;
+    position: relative;
+  }
+  
+  #menu_2 .dropdown_menu ul li a::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 18px;
+    background: #336699;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+  
+  #menu_2 .dropdown_menu ul li:hover a {
+    color: #336699;
+    -webkit-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+  }
+  
+  #menu_2 .dropdown_menu ul li:hover a::before {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+  
+  #menu_2 .dropdown_menu ul li:hover i {
+    color: #336699;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+  
+  #menu_2 .track_order_daily_deals {
+            justify-content: space-between;
+  }
+  
+  #menu_2 .track_order {
+    padding-left: 60px;
+  }
+  
+  #menu_2 .track_order a {
+    color: #222;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+  
+  #menu_2 .track_order a:hover {
+    color: #336699;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+  
+  #menu_2 .track_order a:hover i {
+    color: #336699;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+  
+  #menu_2 .daily_deals a {
+    color: #222;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+  
+  #menu_2 .daily_deals a:hover {
+    color: #336699;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+  
+  #menu_2 .daily_deals a:hover i {
+    color: #336699;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+  }
+
+ 
